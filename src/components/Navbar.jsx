@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <div className='flex gap-4 text-2xl p-4 m-4'>
       <NavLink to='/'>
-        <div className='flex gap-1.5 font-bold text-4xl '>
-            <h1 >Kyara</h1>
-            <h3>Beverages</h3>
+        <div className='flex gap-1.5 border-2 p-2  '>
+            <h1 className='text-4xl font-bold' >Kyara</h1><br />
+            <span className='mt-2 font-semibold'><h3>Beverages</h3></span>
         </div>
         
       </NavLink>
